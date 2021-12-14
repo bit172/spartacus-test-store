@@ -1,0 +1,6 @@
+<p>sale works!</p>
+<a routerLink="/electronics/cameras/Samsung/1981415/PL60-Silver">Product</a>
+<a [routerLink]="{ cxRoute: 'product', params: { code: '1981415' } } | cxUrl">
+  Product
+</a>
+<button type="button" (click)="goToRandomProduct()">I'm feeling lucky!</button>
